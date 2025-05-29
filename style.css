@@ -1,0 +1,80 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  background: #f2f2f2;
+  color: #1d1b1b;
+}
+
+header {
+  background: #135984;
+  color: rgba(24, 4, 8, 0.904);
+  padding: 20px;
+  text-align: center;
+}
+ 
+ #about h3 {
+    color: #324a40;
+    font-size: 25px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+#gallery h2 {
+    color: #1a1d1c;
+    font-size: 26px;
+    text-decoration: underline;
+    font-weight: bold;
+}
+nav a {
+  margin: 0 15px;
+  color: rgb(254, 251, 251);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+section {
+  padding: 40px 20px;
+  background: rgb(236, 230, 230);
+  max-width: 900px;
+  margin: 20px auto;
+  border-radius: 8px;
+}
+
+.slideshow Img {
+  position: relative;
+  width: 80%;
+  height: auto;
+  overflow: hidden;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba (0, 0, 0, 0.2);
+}
+form input, form textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+form button {
+  background: #046a3f;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+footer {
+  background: #225d71;
+  text-align: center;
+  color: white;
+  padding: 10px;
+  margin-top: 20px;
+}
+ #contact  {
+    color: #060807;
+    text-decoration: underline;
+    font-weight: bold;
+ }
